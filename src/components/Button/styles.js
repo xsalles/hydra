@@ -12,6 +12,20 @@ export const Container = styled.button`
     ${(props) => (props.primary ? "C0B7E8" : props.colorEnd)}
   );
   border: 1px solid none;
+  font-size: 12px;
+
+  @media (max-width: 390px) {
+    width: ${(props) =>
+      props.primary
+        ? "292px"
+        : props.secondary
+        ? "295px"
+        : props.third
+        ? "276px"
+        : "250px"};
+    height: 48px;
+    font-size: 14px;
+  }
 `;
 
 export const Text = styled.p`

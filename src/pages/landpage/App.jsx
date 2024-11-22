@@ -1,4 +1,3 @@
-import Button from "../../components/Button";
 import { Container } from "./styles";
 
 function App() {
