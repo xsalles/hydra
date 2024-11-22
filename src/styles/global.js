@@ -7,6 +7,10 @@ export const GlobalStyle = createGlobalStyle`
   src: url(${Montserrat}) format(truetype);
 }
 
+  body {
+    background-color: #302C42;
+  }
+
    * {
     font-family: "Montserrat";
   }

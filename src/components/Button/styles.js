@@ -11,7 +11,7 @@ export const Container = styled.button`
     ${(props) => (props.primary ? "#8176AF" : props.colorStart)},
     ${(props) => (props.primary ? "C0B7E8" : props.colorEnd)}
   );
-  border: 1px solid none;
+  border: 1px solid transparent;
   font-size: 12px;
 
   @media (max-width: 390px) {
