@@ -1,10 +1,10 @@
-import HamburguerMenu from "../../components/HamburguerMenu";
+import Arrow from "../../components/Arrow";
 import { Container } from "./styles";
 
 function App() {
   return (
     <Container>
-      <HamburguerMenu/>
+      <Arrow/>
     </Container>
   );
 }

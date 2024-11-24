@@ -8,7 +8,7 @@ export const Container = styled.div`
   height: 26px;
 `;
 
-export const Arrow = styled.div`
+export const Line = styled.div`
   display: flex;
   width: ${(props) => (props.primary ? "33px" : "24px")};
   height: 3.71px;
