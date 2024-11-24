@@ -1,10 +1,10 @@
-import Arrow from "../../components/Arrow";
+import Card from "../../components/Card";
 import { Container } from "./styles";
 
 function App() {
   return (
     <Container>
-      <Arrow/>
+      <Card/>
     </Container>
   );
 }

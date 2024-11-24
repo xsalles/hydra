@@ -5,14 +5,15 @@ export const Container = styled.button`
   height: 48px;
   border-radius: 40px;
   text-align: center;
-  color: ${(props) => (props.primary ? "#343045" : "#FFFFF")};
+  color: ${(props) => (props.primary ? "#343045" : "#FFFFFF")};
   background: linear-gradient(
     to right,
-    ${(props) => (props.primary ? "#8176AF" : props.colorStart)},
-    ${(props) => (props.primary ? "C0B7E8" : props.colorEnd)}
+    ${(props) => props.colorStart || "transparent"},
+    ${(props) => props.colorEnd || "transparent"}
   );
   border: 1px solid transparent;
   font-size: 12px;
+  margin-top: ${(props) => props.margin || "0px"};
 
   @media (max-width: 390px) {
     width: ${(props) =>
