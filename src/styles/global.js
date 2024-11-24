@@ -23,10 +23,4 @@ export const GlobalStyle = createGlobalStyle`
   button{
     cursor: pointer;
   }
-
-  :root{
-    --font-primary: #343045;
-    --bg-primaryStart: #8176AF;
-    --bg-primaryEnd: #C0B7E8;
-  }
 `;
