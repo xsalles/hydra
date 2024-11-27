@@ -9,6 +9,15 @@ export const Container = styled.form`
   background: radial-gradient(#403a5f, #211e2e);
   border: 1px solid transparent;
   border-radius: 100px;
+
+  @media (max-width: 390px) {
+    width: 343px;
+    height: 973px;
+    display: flex;
+    text-align: center;
+    border: 1px solid transparent;
+    border-radius: 40px;
+  }
 `;
 
 export const Title = styled.p`
@@ -16,6 +25,13 @@ export const Title = styled.p`
   font-weight: bold;
   color: #ffffff;
   margin-top: 95px;
+
+  @media (max-width: 390px) {
+    width: 159px;
+    height: 29px;
+    font-size: 24px;
+    margin-top: 45px;
+  }
 `;
 
 export const Line = styled.div`
@@ -29,6 +45,11 @@ export const Line = styled.div`
     #343045 100%
   );
   margin-top: 30px;
+
+  @media (max-width: 390px) {
+    width: 116.5px;
+    margin-top: 21px;
+  }
 `;
 
 export const SubTitle = styled.p`
@@ -36,6 +57,13 @@ export const SubTitle = styled.p`
   font-size: 36px;
   margin-top: 21px;
   color: #ffffff;
+
+  @media (max-width: 390px) {
+    margin-top: 19px;
+    font-size: 24px;
+    width: 232px;
+    height: 64px;
+  }
 `;
 
 export const ContainerInput = styled.div`
@@ -50,6 +78,16 @@ export const ContainerInput = styled.div`
       ? "39px"
       : "33px"};
   gap: ${(props) => (props.primaryContainer ? "12px" : "33px")};
+
+  @media (max-width: 390px) {
+    display: flex;
+    flex-direction: column;
+    margin-top: 36px;
+    gap: 22px;
+    width: 300px;
+    height: ${(props) => (props.primaryContainer ? "128px" : "294px")};
+    
+  }
 `;
 
 export const TextInput = styled.input`
@@ -63,8 +101,14 @@ export const TextInput = styled.input`
   border: 1px solid #ffffff;
   border-radius: 40px;
   background: transparent;
-  padding: ${(props) => props.padding};
+  padding: ${(props) => props.padding}; 
   caret-color: #ffffff;
+
+  @media (max-width: 390px) {
+    padding: ${(props) => (props.paddingResponsiveBiggerContainer ? "18px 134px 184px 29px" : "18px 193px 18px 29px")};
+    width: 300px;
+    height: ${(props) => (props.responsiveBiggerContainer ? "219px" : "53px" )};
+  }
 
   &::placeholder {
     color: white;

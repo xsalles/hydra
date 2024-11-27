@@ -48,6 +48,8 @@ export default function Form({ height, padding }) {
           placeholder="Tell us something..."
           height="210px"
           padding="27px 879px 166px 42px"
+          responsiveBiggerContainer
+          paddingResponsiveBiggerContainer
         />
       </ContainerInput>
 
