@@ -14,6 +14,7 @@ export const Container = styled.button`
   border: 1px solid transparent;
   font-size: 12px;
   margin-top: ${(props) => props.margin || "0px"};
+  margin-bottom: ${(props) => props.primaryContainer || "51px"};
 
   @media (max-width: 390px) {
     width: ${(props) =>
