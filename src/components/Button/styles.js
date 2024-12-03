@@ -5,13 +5,14 @@ export const Container = styled.button`
   height: 48px;
   border-radius: 40px;
   text-align: center;
-  color: ${(props) => (props.primary ? "#343045" : "#FFFFFF")};
+  color: ${(props) => props.colorText};
   background: linear-gradient(
     to right,
     ${(props) => props.colorStart || "transparent"},
     ${(props) => props.colorEnd || "transparent"}
   );
-  border: 1px solid transparent;
+
+  border: ${(props) => props.borderSettings};
   font-size: 12px;
   margin-top: ${(props) => props.margin || "0px"};
   margin-bottom: ${(props) => props.marginBottom};

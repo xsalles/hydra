@@ -1,10 +1,10 @@
-import Form from "../../components/Form";
+import Home from "../home";
 import { Container } from "./styles";
 
 function App() {
   return (
     <Container>
-      <Form/>
+      <Home />
     </Container>
   );
 }

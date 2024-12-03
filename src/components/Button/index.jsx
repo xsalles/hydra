@@ -7,7 +7,9 @@ export default function Button({
   third,
   colorStart = "#8176AF",
   colorEnd = "#C0B7E8",
-  margin
+  margin,
+  borderSettings,
+  colorText
 }) {
   return (
     <Container
@@ -17,6 +19,8 @@ export default function Button({
       secondary={secondary}
       third={third}
       margin={margin}
+      borderSettings={borderSettings}
+      colorText={colorText}
     >
       <Text>{text}</Text>
     </Container>
