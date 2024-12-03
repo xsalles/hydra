@@ -20,4 +20,5 @@ export const LineTip = styled.img`
   height: 38px;
   position: absolute;
   right: 0px;
+  margin-right: ${(props) => props.marginRight};
 `;

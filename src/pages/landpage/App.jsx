@@ -1,4 +1,4 @@
-import Home from "../home";
+import Home from "../home/home.jsx";
 import { Container } from "./styles";
 
 function App() {
