@@ -10,6 +10,7 @@ export const Container = styled.header`
     display: flex;
     width: 350px;
     height: 59.88px;
+    margin: 25.66px 20px 0px 20px;    
   }
 `;
 
@@ -40,6 +41,12 @@ export const Letter = styled.img`
   width: ${(props) =>
     props.smallLetter ? "11.54px" : props.bigLetter ? "13.86px" : "11.57px"};
   height: 46px;
+
+  @media (max-width: 390px) {
+    height: 28px;
+    width: ${(props) =>
+      props.smallLetter ? "6.98px" : props.bigLetter ? "8.39px" : "7px"};
+  }
 `;
 
 export const ContainerNav = styled.nav`
@@ -48,6 +55,10 @@ export const ContainerNav = styled.nav`
   gap: 42px;
   display: flex;
   margin-left: 205px;
+
+  @media (max-width: 390px) {
+    display: none;
+  }
 `;
 
 export const Item = styled.a`
@@ -62,4 +73,8 @@ export const ContainerButtons = styled.div`
   display: flex;
   gap: 38px;
   margin-left: 140px;
+
+  @media (max-width: 390px) {
+    display: none;
+  }
 `;

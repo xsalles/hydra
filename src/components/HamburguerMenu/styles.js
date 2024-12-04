@@ -6,6 +6,7 @@ export const Container = styled.div`
   gap: 7px;
   width: 33px;
   height: 26px;
+  margin-left: 191px;
 `;
 
 export const Line = styled.div`
