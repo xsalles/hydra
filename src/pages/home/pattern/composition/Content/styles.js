@@ -3,15 +3,11 @@ import styled from "styled-components";
 export const Container = styled.div`
   width: 1254px;
   height: 426px;
-  margin-top: 112px;
   display: flex;
-  gap: 314px;
 
   @media (max-width: 390px) {
     display: flex;
     flex-direction: column;
-    
-    margin-top: 57.56px;
     width: 347px;
     height: 672px;
   }
@@ -23,12 +19,14 @@ export const CTAContainer = styled.section`
   flex-direction: column;
   height: 364px;
   position: relative;
+  margin-top: 146px;
 
   @media (max-width: 390px) {
     order: 2;
     margin-top: 315px;
     width: 100vw;
     align-items: center;
+    margin-top: 39.85px;
   }
 `;
 
@@ -94,7 +92,9 @@ export const ContainerImage = styled.img`
   width: 490px;
   height: 426px;
   border: 1px solid transparent;
+  margin-left: 314px;
   border-radius: 100px 100px 100px 240px;
+  margin-top: 138px;
 
   @media (max-width: 390px) {
     order: 1;
@@ -102,5 +102,6 @@ export const ContainerImage = styled.img`
     height: 277.04px;
     border-radius: 100px 100px 100px 240px;
     margin-left: 35.01px;
+    margin-top: 57.56px;
   }
 `;
