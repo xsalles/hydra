@@ -6,19 +6,15 @@ export const ArrowContainer = styled.div`
   display: flex;
   justify-content: center;
   position: relative;
-`;
-
-export const LineStraight = styled.img`
-  width: 158px;
-  height: 4px;
-  margin-top: 16.99px;
-  position: absolute;
+  margin-top: ${(props) => props.marginTop};
+  right: ${(props) => props.right};
 `;
 
 export const LineTip = styled.img`
   width: ${(props) => props.primary ?   "100px" : "42px"};
   height: ${(props) => props.primary ?   "100px" : "33px"};
-  right: 0px;
+  left: 90px;
+  top: 2.5px;
   position: ${(props) => props.position};
   margin-top: ${(props) => props.marginTop ?   "33.33px" : "0px"};;
 `;

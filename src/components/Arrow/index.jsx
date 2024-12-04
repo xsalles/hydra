@@ -2,11 +2,10 @@ import { ArrowContainer, LineStraight, LineTip } from "./styles";
 import Straight from "../../assets/images/arrowImages/straight.svg";
 import Tip from "../../assets/images/arrowImages/tip.svg";
 
-export default function Arrow() {
+export default function Signal() {
   return (
     <ArrowContainer>
-      <LineStraight src={Straight} />
-      <LineTip src={Tip} position="absolute"/>
+      <LineTip src={Tip} position="relative"/>
     </ArrowContainer>
   );
 }

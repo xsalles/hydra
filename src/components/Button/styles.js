@@ -14,7 +14,7 @@ export const Container = styled.button`
 
   border: ${(props) => props.borderSettings};
   font-size: 12px;
-  margin-top: ${(props) => props.margin || "0px"};
+  margin-top: ${(props) => props.marginTop || "0px"};
   margin-bottom: ${(props) => props.marginBottom};
 
   @media (max-width: 390px) {
