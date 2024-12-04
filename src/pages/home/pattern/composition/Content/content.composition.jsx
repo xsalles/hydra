@@ -65,7 +65,7 @@ export default function Content() {
                   borderSettings="none"
                   colorText="#343045"
                 />
-                <LineTip src={Tip} marginLeft />
+                <LineTip src={Tip} />
               </>
             )}
           </ArrowWithButton>

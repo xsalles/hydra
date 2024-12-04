@@ -5,6 +5,7 @@ export const Container = styled.div`
   height: 426px;
   display: flex;
   flex-direction: row;
+  margin-top: 112px;
 
   @media (max-width: 390px) {
     display: flex;
@@ -94,6 +95,8 @@ export const ArrowWithButton = styled.div`
   display: flex;
   flex-direction: row;
   margin-top: 40px;
+  align-items: center;
+  gap: 20px;
 
   @media (max-width: 390px) {
     align-items: center;

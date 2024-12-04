@@ -16,9 +16,9 @@ export const LineStraight = styled.img`
 `;
 
 export const LineTip = styled.img`
-  width: 46px;
-  height: 38px;
+  width: ${(props) => props.primary ?   "100px" : "42px"};
+  height: ${(props) => props.primary ?   "100px" : "33px"};
   right: 0px;
   position: ${(props) => props.position};
-  margin-right: ${(props) => props.marginRight};
+  margin-top: ${(props) => props.marginTop ?   "33.33px" : "0px"};;
 `;
