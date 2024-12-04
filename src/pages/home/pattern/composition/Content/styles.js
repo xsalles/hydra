@@ -6,6 +6,15 @@ export const Container = styled.div`
   margin-top: 112px;
   display: flex;
   gap: 314px;
+
+  @media (max-width: 390px) {
+    display: flex;
+    flex-direction: column;
+    
+    margin-top: 57.56px;
+    width: 347px;
+    height: 672px;
+  }
 `;
 
 export const CTAContainer = styled.section`
@@ -13,12 +22,18 @@ export const CTAContainer = styled.section`
   width: 456px;
   flex-direction: column;
   height: 364px;
-  position: relative;
+  position: absolute;
+
+  @media (max-width: 390px) {
+    order: 2;
+    margin-top: 315px;
+    width: 100vw;
+    align-items: center;
+  }
 `;
 
-export const TextContainer = styled.div``;
-
 export const Title = styled.p`
+display: inline-block;
   font-size: 40px;
   color: #ffffff;
   width: ${(props) => props.width};
@@ -26,6 +41,12 @@ export const Title = styled.p`
   font-weight: bold;
   text-align: left;
   margin-top: ${(props) => props.marginTop};
+
+  @media (max-width: 390px) {
+    font-size: 24px;
+    width: ${(props) => props.widthSmallDevice};
+    height: ${(props) => props.heightSmallDevice};
+  }
 `;
 
 export const ColoredText = styled.span`
@@ -34,6 +55,12 @@ export const ColoredText = styled.span`
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   font-size: 46px;
+
+  @media (max-width: 390px) {
+    font-size: ${(props) => props.fontSizeColoredTextSmallDevice};
+    width: ${(props) => props.widthSmallDevice};
+    height: 39px;
+  }
 `;
 
 export const Description = styled.p`
@@ -42,6 +69,10 @@ export const Description = styled.p`
   margin-top: 36px;
   font-size: 16px;
   color: #ffffff;
+
+  @media (max-width: 390px) {
+    display: none;
+  }
 `;
 
 export const ArrowWithButton = styled.div`
@@ -50,6 +81,13 @@ export const ArrowWithButton = styled.div`
   display: flex;
   flex-direction: row;
   margin-top: 40px;
+
+  @media (max-width: 390px) {
+    align-items: center;
+    margin-top: 36px;
+    width: 292px;
+    height: 52px;
+  }
 `;
 
 export const ContainerImage = styled.img`
@@ -57,4 +95,12 @@ export const ContainerImage = styled.img`
   height: 426px;
   border: 1px solid transparent;
   border-radius: 100px 100px 100px 240px;
+
+  @media (max-width: 390px) {
+    order: 1;
+    width: 318.67px;
+    height: 277.04px;
+    border-radius: 100px 100px 100px 240px;
+    margin-left: 35.01px;
+  }
 `;

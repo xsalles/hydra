@@ -9,7 +9,8 @@ export default function Button({
   colorEnd = "#C0B7E8",
   margin,
   borderSettings,
-  colorText
+  colorText,
+  marginLeftSmallDevice
 }) {
   return (
     <Container
