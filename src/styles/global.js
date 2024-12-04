@@ -7,6 +7,11 @@ export const GlobalStyle = createGlobalStyle`
   src: url(${Montserrat}) format(truetype);
 }
 
+html {
+  display: flex;
+  align-items: center;
+}
+
   body {
     background-color: #302C42;
   }
