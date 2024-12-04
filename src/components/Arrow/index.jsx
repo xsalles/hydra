@@ -6,7 +6,7 @@ export default function Arrow() {
   return (
     <ArrowContainer>
       <LineStraight src={Straight} />
-      <LineTip src={Tip} />
+      <LineTip src={Tip} position="absolute"/>
     </ArrowContainer>
   );
 }

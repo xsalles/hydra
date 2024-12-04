@@ -6,10 +6,4 @@ export const Container = styled.main`
   align-items: center;
   width: 100vw;
   height: 100vh;
-  background-size: cover;
-
-  @media (max-width: 390px) {
-    width: 100vw;
-    height: 100vh;
-  }
 `;
