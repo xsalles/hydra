@@ -22,7 +22,7 @@ export const CTAContainer = styled.section`
   width: 456px;
   flex-direction: column;
   height: 364px;
-  position: absolute;
+  position: relative;
 
   @media (max-width: 390px) {
     order: 2;
