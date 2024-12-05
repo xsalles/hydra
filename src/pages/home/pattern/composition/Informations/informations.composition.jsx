@@ -16,7 +16,9 @@ const elements = [
     <Icon src={Location} />
     <TextContainer width="290px" height="56px">
       <Title width="169px">Pay Us a Visit</Title>
-      <Description width="290px">Union St, Seattle, WA 98101, United States</Description>
+      <Description width="290px">
+        Union St, Seattle, WA 98101, United States
+      </Description>
     </TextContainer>
   </InformationContainer>,
   <Line marginLeft="42.5px" marginRight="47.5px" />,

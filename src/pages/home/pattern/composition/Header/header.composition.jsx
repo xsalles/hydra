@@ -39,12 +39,12 @@ export default function Header() {
       <Icon src={IconImage} />
       <ContainerLetters>
         {letters.map((letter) => (
-          <Letter src={letter} />
+          <Letter src={letter}/>
         ))}
       </ContainerLetters>
       <ContainerNav>
         {items.map((item) => (
-          <Item>{item}</Item>
+          <Item href="#">{item}</Item>
         ))}
       </ContainerNav>
       <ContainerButtons>

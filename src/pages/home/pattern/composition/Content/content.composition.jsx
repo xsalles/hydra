@@ -11,7 +11,7 @@ import {
   Title,
 } from "./styles";
 import Tip from "../../../../../assets/images/arrowImages/tip.svg";
-import VRgirl from "../../../../../assets/images/VRwithBorder/VRgirl.svg";
+import VRgirl from "../../../../../assets/images/VRwithBorder/VRgirl.webp";
 import { useState, useEffect } from "react";
 
 export default function Content() {
