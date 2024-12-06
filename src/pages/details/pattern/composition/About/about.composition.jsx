@@ -10,7 +10,7 @@ import Button from "../../../../../components/Button/index.jsx"
 export default function About() {
   return (
     <Container>
-      <ContainerImage src={VRboy} />
+      <ContainerImage src={VRboy} alt="" />
       <AboutText>
         <TextIntroduction fontSize="36px" fontWeight="bold" marginTop="5px">
           ABOUT

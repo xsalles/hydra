@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-export const ArrowContainer = styled.div`
+export const ArrowContainer = styled.section`
   width: 228px;
   height: 100px;
   display: flex;

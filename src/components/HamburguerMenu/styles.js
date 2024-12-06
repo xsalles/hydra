@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-export const Container = styled.div`
+export const Container = styled.section`
   display: flex;
   flex-direction: column;
   gap: 7px;
@@ -9,7 +9,7 @@ export const Container = styled.div`
   margin-left: 191px;
 `;
 
-export const Line = styled.div`
+export const Line = styled.hr`
   display: flex;
   width: ${(props) => (props.primary ? "33px" : "24px")};
   height: 3.71px;

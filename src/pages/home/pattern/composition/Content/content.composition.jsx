@@ -65,12 +65,12 @@ export default function Content() {
                   borderSettings="none"
                   colorText="#343045"
                 />
-                <LineTip src={Tip} />
+                <LineTip src={Tip} alt=""/>
               </>
             )}
           </ArrowWithButton>
         </TextContainer>
-        <ContainerImage src={VRgirl} />
+        <ContainerImage src={VRgirl} alt=""/>
       </CTAContainer>
     </Container>
   );

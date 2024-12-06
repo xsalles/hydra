@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-export const Container = styled.section`
+export const Container = styled.article`
   width: 1272px;
   height: 167px;
   display: flex;
@@ -16,14 +16,14 @@ export const Container = styled.section`
   align-items: center;
 `;
 
-export const InformationContainer = styled.div`
+export const InformationContainer = styled.section`
   width: ${(props) => props.width};
   height: ${(props) => props.height};
   display: flex;
   gap: ${(props) => props.gap};
 `;
 
-export const Line = styled.div`
+export const Line = styled.hr`
   width: 1px;
   height: 116.5px;
   margin-right: ${(props) => props.marginRight};
@@ -36,7 +36,7 @@ export const Icon = styled.img`
   height: ${(props) => props.height};
 `;
 
-export const TextContainer = styled.div`
+export const TextContainer = styled.section`
   width: ${(props) => props.width};
   height: ${(props) => props.height};
   display: flex;
@@ -45,7 +45,7 @@ export const TextContainer = styled.div`
   color: #fff;
 `;
 
-export const Title = styled.p`
+export const Title = styled.h1`
   font-size: 24px;
   font-weight: 700;
   line-height: 29.26px;

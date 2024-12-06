@@ -36,10 +36,10 @@ export default function Header() {
 
   return (
     <Container>
-      <Icon src={IconImage} />
+      <Icon src={IconImage} alt="" />
       <ContainerLetters>
         {letters.map((letter) => (
-          <Letter src={letter}/>
+          <Letter src={letter} alt=""/>
         ))}
       </ContainerLetters>
       <ContainerNav>

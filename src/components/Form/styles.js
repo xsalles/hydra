@@ -20,7 +20,7 @@ export const Container = styled.form`
   }
 `;
 
-export const Title = styled.p`
+export const Title = styled.h1`
   font-size: 36px;
   font-weight: bold;
   color: #ffffff;
@@ -34,7 +34,7 @@ export const Title = styled.p`
   }
 `;
 
-export const Line = styled.div`
+export const Line = styled.hr`
   height: 1px;
   width: 414px;
   background: linear-gradient(
@@ -52,7 +52,7 @@ export const Line = styled.div`
   }
 `;
 
-export const SubTitle = styled.p`
+export const SubTitle = styled.h2`
   font-weight: lighter;
   font-size: 36px;
   margin-top: 21px;
@@ -66,7 +66,7 @@ export const SubTitle = styled.p`
   }
 `;
 
-export const ContainerInput = styled.div`
+export const ContainerInput = styled.fieldset`
   width: ${(props) => (props.primaryContainer ? "1058px" : "1058px")};
   height: ${(props) => (props.primaryContainer ? "72px" : "315px")};
   display: flex;
@@ -86,7 +86,6 @@ export const ContainerInput = styled.div`
     gap: 22px;
     width: 300px;
     height: ${(props) => (props.primaryContainer ? "128px" : "294px")};
-    
   }
 `;
 
@@ -101,13 +100,16 @@ export const TextInput = styled.input`
   border: 1px solid #ffffff;
   border-radius: 40px;
   background: transparent;
-  padding: ${(props) => props.padding}; 
+  padding: ${(props) => props.padding};
   caret-color: #ffffff;
 
   @media (max-width: 390px) {
-    padding: ${(props) => (props.paddingResponsiveBiggerContainer ? "18px 134px 184px 29px" : "18px 193px 18px 29px")};
+    padding: ${(props) =>
+      props.paddingResponsiveBiggerContainer
+        ? "18px 134px 184px 29px"
+        : "18px 193px 18px 29px"};
     width: 300px;
-    height: ${(props) => (props.responsiveBiggerContainer ? "219px" : "53px" )};
+    height: ${(props) => (props.responsiveBiggerContainer ? "219px" : "53px")};
   }
 
   &::placeholder {

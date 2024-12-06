@@ -24,7 +24,7 @@ export const Icon = styled.img`
   }
 `;
 
-export const ContainerLetters = styled.div`
+export const ContainerLetters = styled.section`
   display: flex;
   gap: 3px;
   width: 76px;
@@ -67,7 +67,7 @@ export const Item = styled.a`
   color: #ffffff;
   cursor: pointer;
 `;
-export const ContainerButtons = styled.div`
+export const ContainerButtons = styled.section`
   width: 347px;
   height: 48px;
   display: flex;

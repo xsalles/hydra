@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-export const Container = styled.div`
+export const Container = styled.article`
   width: 1254px;
   height: 426px;
   display: flex;
@@ -34,7 +34,7 @@ export const CTAContainer = styled.section`
   }
 `;
 
-export const TextContainer = styled.div`
+export const TextContainer = styled.section`
   display: flex;
   flex-direction: column;
 
@@ -44,9 +44,9 @@ export const TextContainer = styled.div`
     order: 3;
     align-items: center;
   }
-`
+`;
 
-export const Title = styled.p`
+export const Title = styled.h1`
   display: inline-block;
   font-size: 40px;
   color: #ffffff;
@@ -89,7 +89,7 @@ export const Description = styled.p`
   }
 `;
 
-export const ArrowWithButton = styled.div`
+export const ArrowWithButton = styled.section`
   width: 325px;
   height: 100px;
   display: flex;

@@ -1,6 +1,6 @@
 import { styled } from "styled-components";
 
-export const Container = styled.div`
+export const Container = styled.article`
   width: 1272px;
   height: 102px;
   display: flex;
@@ -8,7 +8,7 @@ export const Container = styled.div`
   gap: 322px;
 `;
 
-export const TextContainer = styled.div`
+export const TextContainer = styled.section`
   width: ${(props) => props.width};
   display: flex;
   height: ${(props) => props.height};

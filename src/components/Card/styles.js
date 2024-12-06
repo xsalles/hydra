@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-export const Container = styled.div`
+export const Container = styled.section`
   width: 310px;
   height: 511px;
   border: 1px solid transparent;
@@ -36,7 +36,7 @@ export const TextContainer = styled.h1`
   color: #ffff;
 `;
 
-export const Line = styled.div`
+export const Line = styled.hr`
   border: 1px solid #c0b7e8;
   width: 154px;
   margin-top: 17.5px;
