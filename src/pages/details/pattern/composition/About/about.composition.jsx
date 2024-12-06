@@ -4,7 +4,7 @@ import {
   ContainerImage,
   TextIntroduction,
 } from "./styles";
-import VRboy from "../../../../../assets/images/VRwithBorder/VRboy.svg";
+import VRboy from "../../../../../assets/images/VRwithBorder/VRboy.webp";
 import Button from "../../../../../components/Button/index.jsx"
 
 export default function About() {

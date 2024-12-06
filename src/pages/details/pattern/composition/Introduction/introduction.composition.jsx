@@ -1,6 +1,5 @@
 import React from "react";
 import { Container, TextContainer, TextIntroduction } from "./styles.js";
-import Signal from "../../../../../components/Arrow/index.jsx";
 
 export default function Introduction() {
   return (

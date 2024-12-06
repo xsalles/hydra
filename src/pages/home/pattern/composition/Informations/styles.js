@@ -14,6 +14,18 @@ export const Container = styled.article`
   box-shadow: 0px 4px 4px 0px #c0b7e803;
   margin-top: 103px;
   align-items: center;
+
+  @media (max-width: 390px){
+    width: 347px;
+    height: 109px;
+    display: flex;
+    border: none;
+    border-radius: none;
+    align-items: center;
+    background: none;
+    box-shadow: 0px 4px 4px 0px #c0b7e803;
+    margin-top: 0;
+  }
 `;
 
 export const InformationContainer = styled.section`

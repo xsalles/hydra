@@ -32,13 +32,24 @@ export default function Content() {
     <Container>
       <CTAContainer>
         <TextContainer>
-          <Title widthSmallDevice="298px" width="457px">
+          <Title
+            marginTopSmallDevice="30px"
+            widthSmallDevice="298px"
+            heightSmallDevice="49px"
+            width="457px"
+          >
             <ColoredText fontSizeColoredTextSmallDevice="36px">
               Dive{" "}
             </ColoredText>
             Into The Depths
           </Title>
-          <Title widthSmallDevice="274px" width="402px" marginTop="4px">
+          <Title
+            widthSmallDevice="274px"
+            heightSmallDevice="39px"
+            width="402px"
+            marginTop="4px"
+            marginTopSmallDevice="8px"
+          >
             Of{" "}
             <ColoredText fontSizeColoredTextSmallDevice="32px">
               Virtual reality
@@ -65,12 +76,12 @@ export default function Content() {
                   borderSettings="none"
                   colorText="#343045"
                 />
-                <LineTip src={Tip} alt=""/>
+                <LineTip src={Tip} alt="" />
               </>
             )}
           </ArrowWithButton>
         </TextContainer>
-        <ContainerImage src={VRgirl} alt=""/>
+        <ContainerImage src={VRgirl} alt="" />
       </CTAContainer>
     </Container>
   );

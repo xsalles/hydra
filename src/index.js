@@ -9,7 +9,7 @@ const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
     <Helmet>
-      <link rel="preload" href="./assets/images/VRwithBorder/VRgirl.webp" />
+      <link fetchPriority="high" rel="preload" href="./assets/images/VRwithBorder/VRgirl.webp" as="image"/>
     </Helmet>
     <Reset />
     <GlobalStyle />

@@ -6,5 +6,9 @@ export const Container = styled.section`
  display: flex;
  flex-direction: column;
  gap: 97px;
+
+ @media (max-width: 390px) {
+    display: none;
+ }
 `
 

@@ -6,12 +6,14 @@ export const Container = styled.article`
   display: flex;
   flex-direction: row;
   margin-top: 112px;
+  position: relative;
 
   @media (max-width: 390px) {
     display: flex;
     flex-direction: column;
-    width: 347px;
-    height: 672px;
+    width: 340px;
+    height: 510px;
+    margin-top: 57.56px;
   }
 `;
 
@@ -24,13 +26,11 @@ export const CTAContainer = styled.section`
   gap: 314px;
 
   @media (max-width: 390px) {
-    order: 2;
-    margin-top: 57.56px;
-    width: 100vw;
-    align-items: center;
+    width: 340px;
+    height: 510px;
     display: flex;
     flex-direction: column;
-    gap: 10px;
+    gap: 0px;
   }
 `;
 
@@ -41,7 +41,7 @@ export const TextContainer = styled.section`
   @media (max-width: 390px) {
     display: flex;
     flex-direction: column;
-    order: 3;
+    order: 2;
     align-items: center;
   }
 `;
@@ -60,6 +60,7 @@ export const Title = styled.h1`
     font-size: 24px;
     width: ${(props) => props.widthSmallDevice};
     height: ${(props) => props.heightSmallDevice};
+    margin-top: ${(props) => props.marginTopSmallDevice};
   }
 `;
 
@@ -103,13 +104,14 @@ export const ArrowWithButton = styled.section`
     margin-top: 36px;
     width: 292px;
     height: 52px;
+    gap: 0px;
   }
 `;
 
 export const ContainerImage = styled.img`
   width: 490px;
   height: 426px;
-  border: 1px solid transparent;
+  border: 10px solid rgba(13, 13, 13, 0.32);
   border-radius: 100px 100px 100px 240px;
 
   @media (max-width: 390px) {

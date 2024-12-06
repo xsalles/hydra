@@ -7,7 +7,6 @@ export const Container = styled.section`
   height: auto;
   display: flex;
   flex-direction: column;
-
   margin-top: 60px;
   background-size: cover;
 
@@ -15,5 +14,6 @@ export const Container = styled.section`
     width: 390px;
     height: 844px;
     margin-top: 0px;
+    align-items: center;
   }
 `
